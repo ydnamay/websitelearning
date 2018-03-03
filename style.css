@@ -1,0 +1,45 @@
+header{
+  display:  flex;
+  /* flex is a command to help "unstack" thnigs, wrap around, and do different things for easy viewing.  this is the most simple flex command*/
+  justify-content:  space-between;
+  height:  25vh;
+  /*  this is the view height; javascript will let you detect the screen size and then 20 will equal 20% of the page */
+  width:  100%;
+  background: #333333;
+}
+
+h1 {
+  font-family: Times;
+  font-size: 30px;
+  color:blue;
+}
+
+p {
+  font-family: Arial;
+  font-size: 12px;
+  color:darkgreen;
+}
+
+nav{
+  display:  flex;
+  align-items:  center;
+  padding-right:  10vh;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  list-style-type: none;
+  background: black;
+  padding: 15px;
+}
+
+li a{
+  color:white;
+  height:  10vh;
+  display: flex;
+  align-items:  center;
+  word-spacing: 2vh;
+  /* padding-left: 25vh;*/
+}
